@@ -55,7 +55,7 @@ def save_presentation(prs, file_name):
     prs.save(file_name)
 
 
-def main():
+if __name__ == "__main__":
     prs = create_presentation()
 
     add_title_slide(prs, "Hello, Python-pptx!", "Creating a PowerPoint presentation using Python.")
@@ -67,7 +67,3 @@ def main():
     add_background_picture_slide_with_text(prs, background_img_path, "Background Title", "This is the content text on a background image slide.")
 
     save_presentation(prs, 'test_presentation.pptx')
-
-
-if __name__ == "__main__":
-    main()
