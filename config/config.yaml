@@ -1,0 +1,25 @@
+data:
+  templates_path: "data/templates/"
+  backgroud_path: "data/backgroud/"
+  output_path: "output/generated_ppts/"
+
+
+ppt_generation:
+  default_template: "default_template.pptx"
+  default_backgroud: "demo.jpg"
+  slide_title_font_size: 24
+  slide_content_font_size: 18
+  slide_image_size: [640, 480]
+  max_text_length_per_slide: 300
+
+
+language_model:
+  model_name: "deepseek-chat"
+  api_key: "sk-xxx"
+  base_url: "https://api.deepseek.com/v1"
+  max_tokens: 1500
+  temperature: 0.7
+
+
+misc:
+  random_seed: 42

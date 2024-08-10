@@ -29,5 +29,5 @@ conda run --no-capture-output --name AI_PPT pip install --no-cache-dir python-pp
 ## How to use
 
 ```
-python generate_ppt.py 
+python src/app.py 
 ```
